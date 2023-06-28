@@ -1,0 +1,28 @@
+body{
+    background-image: url(3.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: blue;
+}
+
+topnavbar{
+     background-color: white ;
+     overflow: hidden;
+     background-size: 100px;
+     width: 217vh;
+     height: 50px;
+}
+
+.home{
+    color: blue;
+
+
+}
+.contact{
+    color: blue;
+
+}
+.about{
+    color: blue;
+
+}
