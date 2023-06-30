@@ -1,7 +1,9 @@
+/* Common styles*/
 body{
     background-image: url(5.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    margin: 0px;
 }
 div{
     color: royalblue;
@@ -19,8 +21,8 @@ div{
     color: #cbcbcb;
     /* Making a Flex box you use the code below: It arranges the Div in order of the code from the top downwards*/
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-around;
     /*creating a padding covers the nav bard to fit the screen*/
     padding: 60x 100px;
 }
