@@ -4,15 +4,19 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0px;
+    font-family: 'Roboto' , sans-serif;
 }
 div{
     color: royalblue;
 }
-.contact-hours-wrapper{
-    color: royalblue;
+.left-column > .contact-hours-wrapper{
+    color: whitesmoke;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
 }
 .address-wrapper{
-    color: red;
+    color: whitesmoke;
 }
 /* Common nav styles*/
 .navigation-wrapper{
@@ -26,3 +30,31 @@ div{
     /*creating a padding covers the nav bard to fit the screen*/
     padding: 60x 100px;
 }
+.left-column{
+    display: flex;
+    align-items: center;
+    color: whitesmoke;
+}
+.phone{
+    color: whitesmoke;
+}
+.hours{
+    color: whitesmoke;
+}
+.nav-link a{
+    font-family: 'Roboto' , sans-serif;
+    color: whitesmoke;
+}
+.nav-link b{
+    font-family: 'Roboto' , sans-serif;
+    color: whitesmoke;
+}
+.banner-image{
+    width: 216px;
+    height: 90px;
+    padding: 60px 100px;
+    margin: 0px;
+    background-position: 10px;
+    background-size: cover;
+}
+
