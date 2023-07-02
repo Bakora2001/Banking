@@ -30,7 +30,7 @@ div{
     /*creating a padding covers the nav bard to fit the screen*/
     padding: 60x 100px;
 }
-.left-column{
+.navigation-wrapper > .left-column{
     display: flex;
     align-items: center;
     color: whitesmoke;
@@ -41,20 +41,26 @@ div{
 .hours{
     color: whitesmoke;
 }
-.nav-link a{
+.links-wrapper > .nav-link a{
     font-family: 'Roboto' , sans-serif;
     color: whitesmoke;
 }
-.nav-link b{
-    font-family: 'Roboto' , sans-serif;
-    color: whitesmoke;
+.navigation-wrapper > .center-column{
+     display: grid;
+     grid-template-columns: 1fr;
+     grid-gap: 42px;
+     width: 500px;
+
 }
-.banner-image{
-    width: 216px;
-    height: 90px;
-    padding: 60px 100px;
-    margin: 0px;
-    background-position: 10px;
-    background-size: cover;
+.links-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
+/*.navigation-wrapper > .center-column > .banner-image{
+   display: flex;
+   justify-content: center;
+   width: 20px;
+   height: 20px;
+}*/
