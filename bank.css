@@ -80,21 +80,30 @@ div{
     align-items: center;
     text-align: right;
 }
-.links-wrapper > .right-column > .address-wrapper{
-    color: #cea135;
-    letter-spacing: 2px;
-}
-.address-wrapper{
-    color: #cbcbcb;
-}
 .navigation-wrapper > .right-column > .address-wrapper a{
     color: #858585;
     text-decoration: none;
-    letter-spacing: 2px;
     font-size: 0.9em;
     transition: 0.5s;
 }
-
+.navigation-wrapper > .right-column > .address-wrapper a:hover{
+    color: #cea135;
+    text-decoration: none;
+    font-size: 0.9em;
+    transition: 0.5s;
+}
+.navigation-wrapper > .left-column > .contact-hours-wrapper > .hours{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: #858585;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+.navigation-wrapper > .left-column > .contact-hours-wrapper > .phone{
+    font-family: 'Ubuntu Condensed', sans-serif;
+  
+    text-decoration: none;
+    font-size: 0.8em;
+}
 /*.navigation-wrapper > .center-column > .banner-image{
    display: flex;
    justify-content: center;
